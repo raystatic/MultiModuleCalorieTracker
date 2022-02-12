@@ -17,7 +17,9 @@ import com.raystatic.core.navigation.Route
 import com.raystatic.multimodulecalorietracker.navigation.navigate
 import com.raystatic.multimodulecalorietracker.ui.theme.MultiModuleCalorieTrackerTheme
 import com.raystatic.onboarding_prensentation.welcome.WelcomeScreen
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
